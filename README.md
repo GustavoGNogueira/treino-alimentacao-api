@@ -1,4 +1,6 @@
-# API RESTful - Aplicativo de Controle de Treinos e Alimentação
+# API RESTful - Aplicativo de Controle de Treinos e Alimentação 
+
+Feito Por: Gustavo Gomes Nogueira, Gabriel Cassoni e Marcos Brindo.
 
 ## Descrição do Projeto
 Esta API permite gerenciar *usuários, **planos de treino* e *planos alimentares. O sistema permite realizar operações de **CRUD (Create, Read, Update, Delete)* para cada entidade, armazenando os dados em um banco *MongoDB* (local ou Atlas).
