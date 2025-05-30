@@ -27,18 +27,22 @@ Esta API permite gerenciar *usuários, **planos de treino* e *planos alimentares
 ## Passos para rodar o projeto
 
 ### Clone o repositório:
+```
 bash
 git clone https://github.com/GustavoGNogueira/treino-alimentacao-api.git
-
+```
 
 ### Acesse a pasta do projeto:
+```
 bash
 cd treino-alimentacao-api
-
+```
 
 ### Instale as dependências:
+```
 bash
 npm install
+```
 
 
 ### Como conectar o MongoDB à aplicação
@@ -47,10 +51,10 @@ A API utuiliza MongoDB como banco de dados. Você pode escolher entre:
   - Instale o [MongoDB](https://www.mongodb.com/try/download/community).
   - Certifique-se de que o serviço esteja rodando em sua máquina.
   - Copie e cole o texto abaixo em seu terminal.
-
+```
 bash
 MONGO_URI=mongodb://localhost:27017/treinoAlimentacaoDB
-
+```
 
 ### Usar MongoDB Atlas
   - Crie uma conta gratuita em [MongoDB Atlas](https://www.mongodb.com/products/platform/atlas-database).
@@ -61,16 +65,18 @@ MONGO_URI=mongodb://localhost:27017/treinoAlimentacaoDB
   
   MONGO_URI=mongodb+srv://<usuario>:<senha>@<cluster>.mongodb.net/treinoAlimentacaoDB?retryWrites=true&w=majority
   
-  - Substitua *usuario, **senha* e *cluster* com seus dados
+  - Substitua *usuario, **senha* e *cluster* com seus dados e cole a URL dentro do arquivo index.js onde está sinalizado
 
 ## Rodando o servidor:
+```
 bash
 node index.js
-
+```
 ou, se tiver o nodemon instalado:
+```
 bash
 nodemon index.js
-
+```
 
 ### A API estará rodando em:
 
@@ -129,7 +135,8 @@ json
 ### Modelagem do banco de dados
 Abaixo está a estrutura do banco utilizada nesta aplicação:
 
-![Diagrama da modelagem](./img/modelagem-hackolade.png)
+![Diagrama da modelagem](WhatsApp%20Image%202025-05-30%20at%2002.00.26.jpeg)
+
 
 ### Entidades e Relacionamentos
   ## Usuário (Usuario)
