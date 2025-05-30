@@ -87,6 +87,10 @@ http://localhost:3000
 
 ## Rotas da API e Exemplos de Requisição
 
+http://localhost:3000/users <br>
+http://localhost:3000/planos-treino <br>
+http://localhost:3000/planos-alimentares
+
 ## *Usuários*
 ### *Exemplo JSON para criação:*
 json
